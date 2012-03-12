@@ -63,6 +63,7 @@ body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr:first-
 
 td, .comment, .default, .comhead, .yclinks, .dead {
     font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 body > center > table > tbody > tr:nth-child(3) > td > form {
