@@ -1,8 +1,10 @@
 # Cleaner Hacker News
 
+__Note: I modified the stylesheet and the screenshot below. – @olivierlacan__
+
 Cleaner Hacker News is a loose collection of CSS rules that you can use to improve the style of Hacker News (http://hackerne.ws or http://news.ycombinator.com).
 
-Here's a screenshot: ![](https://github.com/Primigenus/Cleaner-Hacker-News/raw/master/screenshot.png)
+Here's a screenshot: ![](http://f.cl.ly/items/382O3L3v2y303x1h3t2Y/Screen%20Shot%202012-03-11%20at%2011.01.51%20PM.png)
 
 The styles improve the legibility of the page by:
 
