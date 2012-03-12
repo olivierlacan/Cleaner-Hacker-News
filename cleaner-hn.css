@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-image: url(http://subtlepatterns.com/patterns/groovepaper.png);
 }
 
 body > center > table {
@@ -15,7 +14,7 @@ body > center > table > tbody > tr:first-child > td {
 }
 
 body > center > table > tbody > tr:first-child > td > table {
-    padding: 10px;
+    padding: 7px;
     margin: 0 auto;
     width: 960px;
 }
@@ -30,7 +29,6 @@ body > center > table > tbody > tr:first-child > td > table > tbody > tr > td:fi
 }
 
 a {
-    font-weight: bold;
 }
 
 a:hover {
@@ -38,7 +36,7 @@ a:hover {
 }
 
 body > center > table > tbody > tr:nth-child(3) > td {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 body > center > table > tbody > tr:nth-child(3) > td > table {
@@ -49,7 +47,7 @@ body > center > table > tbody > tr:nth-child(3) > td > table {
 .title {
     color: #ccc;
     font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr:first-child > td:nth-child(2).title > a {
@@ -57,7 +55,8 @@ body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr:first-
 }
 
 .subtext {
-    height: 15px;
+    height: 20px;
+    font-size: 11px;
     font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
     vertical-align: top;
 }
