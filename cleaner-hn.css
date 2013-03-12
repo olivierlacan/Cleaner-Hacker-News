@@ -1,10 +1,52 @@
+.comment p, .comment + p {
+    line-height: 16px;
+    margin: 8px 0 0 0;
+}
+
+.comment u, .comment u a, .comment u a:visited, .comment + p u, .comment + p u a, .comment + p u a:visited {
+    color: #777;
+    text-decoration: none ;
+}
+
+.pagetop {
+    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.subtext {
+    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.title {
+    color: #ccc;
+    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     margin: 0;
 }
 
 body > center > table {
-    width: 100%;
     background-color: transparent;
+    width: 100%;
+}
+
+body > center > table > tbody > tr > td > table {
+    margin: 0 auto;
+    width: 960px;
 }
 
 body > center > table > tbody > tr:first-child > td {
@@ -14,8 +56,8 @@ body > center > table > tbody > tr:first-child > td {
 }
 
 body > center > table > tbody > tr:first-child > td > table {
-    padding: 7px;
     margin: 0 auto;
+    padding: 7px;
     width: 960px;
 }
 
@@ -23,42 +65,32 @@ body > center > table > tbody > tr:first-child > td > table > tbody > tr > td:fi
     padding-right: 10px;
 }
 
-.pagetop {
-    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-a {
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 body > center > table > tbody > tr:nth-child(3) > td {
     padding: 10px 0;
 }
 
-body > center > table > tbody > tr:nth-child(3) > td > table {
-    width: 960px;
+body > center > table > tbody > tr:nth-child(3) > td > form {
     margin: 0 auto;
+    width: 960px;
 }
 
-.title {
-    color: #ccc;
-    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
-    font-size: 16px;
+body > center > table > tbody > tr:nth-child(3) > td > table {
+    margin: 0 auto;
+    width: 960px;
 }
 
 body > center > table > tbody > tr:nth-child(3) > td > table > tbody > tr:first-child > td:nth-child(2).title > a {
     font-size: 18px;
 }
 
-.subtext {
-    height: 20px;
-    font-size: 11px;
-    font-family: "Lucida Grande", "Segoe UI", Arial, Helvetica, sans-serif;
-    vertical-align: top;
+td > center > table {
+    background-color: white;
+    border: solid 1px #000;
+    width: 940px;
+}
+
+td > center > table td {
+    padding: 10px;
 }
 
 td, .comment, .default, .comhead, .yclinks, .dead {
@@ -66,33 +98,8 @@ td, .comment, .default, .comhead, .yclinks, .dead {
     font-size: 15px;
 }
 
-body > center > table > tbody > tr:nth-child(3) > td > form {
-    width: 960px;
-    margin: 0 auto;
-}
-
-td > center > table {
-    width: 940px;
-    background-color: white;
-    border: solid 1px #000;
-}
-
-td > center > table td {
-    padding: 10px;
-}
-
-body > center > table > tbody > tr > td > table {
-    width: 960px;
-    margin: 0 auto;
-}
-
-.comment u, .comment u a, .comment u a:visited, .comment + p u, .comment + p u a, .comment + p u a:visited {
-    text-decoration: none ;
-    color: #777;
-}
-
-.comment p, .comment + p {
-    margin: 8px 0 0 0;
-    line-height: 16px;
+td.title a {
+    text-decoration: none;
+    color: #4d4d4d;
 }
 
