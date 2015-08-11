@@ -15,7 +15,11 @@ The styles improve the legibility of the page by:
 
 See screenshot.png for a preview of how it looks in Google Chrome.
 
-Tested in Google Chrome v16 on Mac OS X.
+Tested in Google Chrome 43 on Mac OS X and Safari 9.0
+
+## Installation
+
+### Chrome
 
 To apply the styles in Google Chrome, install the Stylebot extension (https://chrome.google.com/webstore/detail/oiaejidbmkiecgbjeifoejpgmdaleoha), head to Hacker News, click the Stylebot button in the address bar (the one that says "css"), click Edit Css at the bottom, and then paste the contents of cleaner-hn.css.
 
@@ -27,5 +31,9 @@ To preview the styles you can paste this Javascript into your address bar:
 
 Also available via Stylebot.me: http://stylebot.me/styles/1107
 
-January 11, 2012
-github.com/primigenus
+### Safari
+
+Install the [Stylish extension](http://sobolev.us/stylish/) and you can create a new style as follows
+by copying the raw CSS from [cleaner-hn.css](cleaner-hn.css):
+
+![](https://s3.amazonaws.com/f.cl.ly/items/2w1M0E423S1M2t3g1u27/Screen%20Shot%202015-08-11%20at%2010.12.10%20AM.png)
