@@ -34,6 +34,6 @@ Also available via Stylebot.me: http://stylebot.me/styles/1107
 ### Safari
 
 Install the [Stylish extension](http://sobolev.us/stylish/) and you can create a new style as follows
-by copying the raw CSS from [cleaner-hn.css](cleaner-hn.css):
+by copying the raw CSS from [designed-hn.css](designed-hn.css):
 
 ![](https://s3.amazonaws.com/f.cl.ly/items/2w1M0E423S1M2t3g1u27/Screen%20Shot%202015-08-11%20at%2010.12.10%20AM.png)
