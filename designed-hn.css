@@ -57,7 +57,7 @@ body > center > table > tbody > tr:first-child > td {
 
 body > center > table > tbody > tr:first-child > td > table {
     margin: 0 auto;
-    padding: 7px;
+    padding: 7px !important;
     width: 960px;
 }
 
@@ -102,4 +102,3 @@ td.title a {
     text-decoration: none;
     color: #4d4d4d;
 }
-
